@@ -16,4 +16,10 @@ Desarrollaremos un **monitor del sistema**, la idea es mostrar, información del
 - **rich** o **textual**: interfaz en la terminal y con actualización en vivo.
 - **pytest**, **ruff** o **flake8**: pruebas y estilo para mantener el código ordenado
 
+## Instalación
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 
+## Ejecución
+python -m src.monitor.cli
